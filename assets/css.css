@@ -1,0 +1,91 @@
+body {
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	font-family:"Times New Roman", Times, serif;
+	text-align: center;
+	padding-top: 50px;
+	background: #5CB3FF url(bg.png) left bottom repeat-x;
+}
+
+.password_application {
+	background-color: black;
+	color: white;
+	text-align: center; 
+}
+.password_content {
+	background-color: white;
+	color: black;
+	text-align: left;
+	border: 1px solid black;
+}
+
+.button{
+	background-color: #666;
+	border-radius: 5px;
+	text-shadow: 2px 2px 2px #000;
+	-moz-box-shadow: 5px 5px 5px #333;
+	-webkit-box-shadow: 5px 5px 5px #333;
+	box-shadow: 5px 5px 5px #333;
+	border: 1px solid white;
+	padding: 5px;
+	
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(0,0,0)),
+	    color-stop(0.55, rgb(56,56,56)),
+	    color-stop(0.95, rgb(107,107,107))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(0,0,0) 0%,
+	    rgb(56,56,56) 55%,
+	    rgb(107,107,107) 95%
+	);
+}
+
+#insert{
+	margin: 0 30px 30px 20px;
+}
+
+#read{
+	margin: 0 30px 30px 20px;
+}
+
+#content1 {
+	display: block;
+}
+
+#content2 {
+	font-size: medium;
+	display: none;
+}
+
+#button_insert{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#button_back{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#content3 {
+	font-size: medium;
+	display: none;
+}
+
+#read_back{
+	float: right;
+	width: 60px;
+	margin-top: 20px;
+}
+
+.clear_float{
+	clear:both;
+}
